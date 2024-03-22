@@ -1,0 +1,41 @@
+{
+  "name": "accusamusquo",
+  "version": "1.13.0",
+  "description": "Autogenerates a nodejs Swagger API for making web3.js calls to a smart contract of your choice.",
+  "main": "index.js",
+  "bin": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "mocha .tests/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerrillFriesen/accusamusquo.git"
+  },
+  "keywords": [
+    "voluptatem",
+    "et",
+    "est",
+    "qui",
+    "sed",
+    "magnam",
+    "codegen",
+    "swagger",
+    "vel"
+  ],
+  "author": "KoryBradtke",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TerrillFriesen/accusamusquo.git/issues"
+  },
+  "homepage": "https://github.com/TerrillFriesen/accusamusquo.git",
+  "dependencies": {
+    "abi2lib": "^0.2.0",
+    "abi2oas": "^0.1.1",
+    "asperioresrepellat": "^1.0.0",
+    "commander": "^2.15.1",
+    "dot-prop": "^4.2.0",
+    "handlebars": "^4.0.11",
+    "shelljs": "^0.8.1"
+  }
+}
